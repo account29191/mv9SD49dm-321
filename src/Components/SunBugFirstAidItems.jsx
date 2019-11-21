@@ -22,6 +22,13 @@ class SunBugFirstAidItems extends Component {
           >
             Add First Aid Kit
           </button>
+          <button
+            id="firstAidKitButton"
+            className="button"
+            onClick={this.props.onHandleDecrementTotal}
+          >
+            Remove FirstAidKit
+          </button>
 
           <h4>Alcohol Wipes</h4>
           <h4>{this.props.alcoholWipesTotal}</h4>
@@ -31,6 +38,13 @@ class SunBugFirstAidItems extends Component {
             onClick={this.props.onHandleIncrementTotal}
           >
             Add Alcohol Wipes
+          </button>
+          <button
+            id="alcoholWipesButton"
+            className="button"
+            onClick={this.props.onHandleDecrementTotal}
+          >
+            Remove Alcohol Wipes
           </button>
           <h4>Sun Screen</h4>
           <h4>{this.props.sunScreenTotal}</h4>
@@ -42,6 +56,13 @@ class SunBugFirstAidItems extends Component {
           >
             Add Sun Screen
           </button>
+          <button
+            id="sunScreenButton"
+            className="button"
+            onClick={this.props.onHandleDecrementTotal}
+          >
+            Remove Sun Screen
+          </button>
           <h4>Sun Glasses</h4>
           <h4>{this.props.sunGlassesTotal}</h4>
           <button
@@ -51,6 +72,13 @@ class SunBugFirstAidItems extends Component {
             onClick={this.props.onHandleIncrementTotal}
           >
             Add Sun Glasses
+          </button>
+          <button
+            id="sunGlassesButton"
+            className="button"
+            onClick={this.props.onHandleDecrementTotal}
+          >
+            Remove Sun Glasses
           </button>
           <h4>Bug Spray</h4>
           <h4>{this.props.bugSprayTotal}</h4>
@@ -62,6 +90,13 @@ class SunBugFirstAidItems extends Component {
           >
             Add Bug Spray
           </button>
+          <button
+            id="bugSprayButton"
+            className="button"
+            onClick={this.props.onHandleDecrementTotal}
+          >
+            Remove Bug Spray
+          </button>
           <h4>Bear Spray</h4>
           <h4>{this.props.bearSprayTotal}</h4>
           <button
@@ -71,6 +106,13 @@ class SunBugFirstAidItems extends Component {
             onClick={this.props.onHandleIncrementTotal}
           >
             Add Bear Spray
+          </button>
+          <button
+            id="bearSprayButton"
+            className="button"
+            onClick={this.props.onHandleDecrementTotal}
+          >
+            Remove Bear Spray
           </button>
           <h4>Air Horn</h4>
           <h4>{this.props.airHornTotal}</h4>
@@ -82,6 +124,13 @@ class SunBugFirstAidItems extends Component {
           >
             Add Air Horn
           </button>
+          <button
+            id="airHornButton"
+            className="button"
+            onClick={this.props.onHandleDecrementTotal}
+          >
+            Remove Air Horn
+          </button>
 
           <h4>Bandana</h4>
           <h4>{this.props.bandanaTotal}</h4>
@@ -92,6 +141,13 @@ class SunBugFirstAidItems extends Component {
             onClick={this.props.onHandleIncrementTotal}
           >
             Add Bandana
+          </button>
+          <button
+            id="bandanaButton"
+            className="button"
+            onClick={this.props.onHandleDecrementTotal}
+          >
+            Remove Bandana
           </button>
         </div>
       </React.Fragment>

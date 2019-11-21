@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(/static/media/campingImage.423e35e1.jpg);
+  color: white;
+  background-repeat: round;
 }
 
 code {

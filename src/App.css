@@ -9,12 +9,21 @@
 .campsiteItemsTitleDiv {
 }
 
+.number {
+  display: block;
+  width: 200%;
+  height: 20px;
+  border-radius: 2px;
+  text-align: center;
+  background-color: black;
+}
+
 .campsiteItemsDiv,
 .kitchenItemsDiv,
 .hygieneItemsDiv,
 .sunBugFirstAidItemsDiv {
   display: grid;
-  grid-template-columns: 1.5fr 0.5fr 1fr;
+  grid-template-columns: 1.5fr 0.5fr 1fr 1fr;
   width: 26%;
   grid-gap: 21px;
   margin-left: 2%;
