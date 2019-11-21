@@ -224,7 +224,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Dish Towel</h4>
-          <h4>{this.props.dishtowelTotal}</h4>
+          <h4>{this.props.dishTowelTotal}</h4>
           <button
             id="dishtowelButton"
             value={this.props.value}
