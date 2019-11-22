@@ -90,6 +90,7 @@ class Form extends Component {
             Add to List
           </button>
           <div className="newField">{this.state.addedItem}</div>
+
           <div className="customComponents">
             <CustomComponent1 newItem1={this.state.addedItem1} />
             <CustomComponent2 newItem2={this.state.addedItem2} />

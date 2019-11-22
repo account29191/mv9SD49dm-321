@@ -1,24 +1,49 @@
 .campingChecklistTitle {
   text-align: center;
-  padding-right: 33%;
 }
 
 .totalNumberOfItemsTitle {
   text-align: center;
 }
+.totalTitle {
+  text-align: center;
+}
 
 .campsiteItemsTitleDiv {
+  position: relative;
+}
+h3 {
+  margin-left: 2%;
+}
+h2,
+h5 {
+  margin-left: 2%;
 }
 
-.number {
-  display: block;
-  width: 200%;
-  height: 20px;
-  border-radius: 2px;
+h4 {
   text-align: center;
-  background-color: black;
 }
-
+input {
+  width: 75%;
+  border-radius: 23px;
+  height: 30px;
+  font-size: 22px;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-family: "Luckiest Guy", cursive;
+}
+.number {
+  width: 75%;
+  border-radius: 23px;
+  height: 30px;
+  font-size: 21px;
+}
+.newField {
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 22px;
+  padding-top: 3%;
+}
 .campsiteItemsDiv,
 .kitchenItemsDiv,
 .hygieneItemsDiv,
@@ -33,7 +58,9 @@
 .button {
   background: honeydew;
   border-radius: 5px;
+  font-size: 19px;
   box-shadow: 5px 2px;
+  margin-left: 2%;
 }
 
 .buttonPressed {
@@ -41,5 +68,26 @@
   border-radius: 5px;
 }
 
+.formGroup {
+  margin-bottom: 6%;
+  margin-left: 2%;
+}
 .customComponents {
+  margin-left: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.customComponent1,
+.customComponent2,
+.customComponent3,
+.customComponent1,
+.customComponent4,
+.customComponent5,
+.customComponent6,
+.customComponent7,
+.customComponent8,
+.customComponent9 .customComponent10,
+.customComponent11,
+.customComponent12 {
+  margin-left: 2%;
 }

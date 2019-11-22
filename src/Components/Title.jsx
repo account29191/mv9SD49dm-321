@@ -4,7 +4,7 @@ function Title() {
   return (
     <React.Fragment>
       <div className="campingChecklistTitle">
-        <h1>Camping Items Checklist</h1>
+        <h1 className="totalTitle">Camping Items Checklist</h1>
       </div>
     </React.Fragment>
   );
