@@ -7,7 +7,7 @@ import CampsiteItems from "./Components/CampsiteItems";
 import KitchenItems from "./Components/KitchenItems";
 import HygieneItems from "./Components/HygieneItems";
 import SunBugFirstAidItems from "./Components/SunBugFirstAidItems";
-import { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } from "constants";
+import Form from "./Components/Form";
 class App extends Component {
   state = {
     //Campsite Items
@@ -882,6 +882,7 @@ class App extends Component {
         <Title />
         <TotalNumberOfItems numberTotal={this.state.total} />
         <Reset resetButton={this.handleReset} />
+        <Form />
         <CampsiteItems
           onHandleIncrementTotal={this.handleIncrementTotal}
           onHandleDecrementTotal={this.handleDecrement}
@@ -953,7 +954,6 @@ class App extends Component {
           airHornTotal={this.state.airHornTotal}
           bandanaTotal={this.state.bandanaTotal}
         />
-        <img src="./Img/campingImage.jpg" />
       </div>
     );
   }
