@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 class Items extends Component {
   state = {};
+
   render() {
     return (
       <React.Fragment>
@@ -11,7 +12,7 @@ class Items extends Component {
         </div>
         <div className="campsiteItemsDiv">
           <h4>Tent</h4>
-          <h4 class="number">{this.props.tentTotal}</h4>
+          <h4 className="number">{this.props.tentTotal}</h4>
           <button
             id="tentButton"
             className="button"
@@ -28,7 +29,7 @@ class Items extends Component {
           </button>
 
           <h4>Sleeping bag</h4>
-          <h4 class="number">{this.props.sleepingBagTotal}</h4>
+          <h4 className="number">{this.props.sleepingBagTotal}</h4>
           <button
             id="sleepingBagButton"
             className="button"
@@ -44,7 +45,7 @@ class Items extends Component {
             Remove Sleeping Bag
           </button>
           <h4>Sleeping Pad</h4>
-          <h4 class="number">{this.props.sleepingPadTotal}</h4>
+          <h4 className="number">{this.props.sleepingPadTotal}</h4>
           <button
             id="sleepingPadButton"
             value={this.props.value}
@@ -61,7 +62,7 @@ class Items extends Component {
             Remove Sleeping Pad
           </button>
           <h4>Camping Pillow</h4>
-          <h4 class="number">{this.props.campingPillowTotal}</h4>
+          <h4 className="number">{this.props.campingPillowTotal}</h4>
           <button
             id="campingPillowButton"
             value={this.props.value}
@@ -78,7 +79,7 @@ class Items extends Component {
             Remove Camping Pillow
           </button>
           <h4>Flashlight</h4>
-          <h4 class="number">{this.props.flashLightTotal}</h4>
+          <h4 className="number">{this.props.flashLightTotal}</h4>
           <button
             id="flashLightButton"
             value={this.props.value}
@@ -95,7 +96,7 @@ class Items extends Component {
             Remove Flashlight
           </button>
           <h4>Camping Chair</h4>
-          <h4 class="number">{this.props.campingChairTotal}</h4>
+          <h4 className="number">{this.props.campingChairTotal}</h4>
           <button
             id="campingChairButton"
             value={this.props.value}
@@ -112,7 +113,7 @@ class Items extends Component {
             Remove Camping Chair
           </button>
           <h4>Lantern</h4>
-          <h4 class="number">{this.props.lanternTotal}</h4>
+          <h4 className="number">{this.props.lanternTotal}</h4>
           <button
             id="lanternButton"
             value={this.props.value}

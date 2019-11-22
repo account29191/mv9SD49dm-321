@@ -11,7 +11,7 @@ class HygieneItems extends Component {
         </div>
         <div className="hygieneItemsDiv">
           <h4>Toilet Paper</h4>
-          <h4>{this.props.toiletPaperTotal}</h4>
+          <h4 className="number">{this.props.toiletPaperTotal}</h4>
           <button
             id="toiletPaperButton"
             className="button"
@@ -28,7 +28,7 @@ class HygieneItems extends Component {
           </button>
 
           <h4>Hand Sanitizer</h4>
-          <h4>{this.props.handSanitizerTotal}</h4>
+          <h4 className="number">{this.props.handSanitizerTotal}</h4>
           <button
             id="handSanitizerButton"
             className="button"
@@ -44,7 +44,7 @@ class HygieneItems extends Component {
             Remove Sanitizer
           </button>
           <h4>Toothbrush</h4>
-          <h4>{this.props.toothbrushTotal}</h4>
+          <h4 className="number">{this.props.toothbrushTotal}</h4>
           <button
             id="toothbrushButton"
             value={this.props.value}
@@ -61,7 +61,7 @@ class HygieneItems extends Component {
             Remove Toothbrush
           </button>
           <h4>Toothpaste</h4>
-          <h4>{this.props.toothpasteTotal}</h4>
+          <h4 className="number">{this.props.toothpasteTotal}</h4>
           <button
             id="toothpasteButton"
             value={this.props.value}
@@ -78,7 +78,7 @@ class HygieneItems extends Component {
             Remove Toothpaste
           </button>
           <h4>Towel</h4>
-          <h4>{this.props.towelTotal}</h4>
+          <h4 className="number">{this.props.towelTotal}</h4>
           <button
             id="towelButton"
             value={this.props.value}
@@ -95,7 +95,7 @@ class HygieneItems extends Component {
             Remove Towel
           </button>
           <h4>Soap</h4>
-          <h4>{this.props.soapTotal}</h4>
+          <h4 className="number">{this.props.soapTotal}</h4>
           <button
             id="soapButton"
             value={this.props.value}
@@ -112,7 +112,7 @@ class HygieneItems extends Component {
             Remove Soap
           </button>
           <h4>Shampoo</h4>
-          <h4>{this.props.shampooTotal}</h4>
+          <h4 className="number">{this.props.shampooTotal}</h4>
           <button
             id="shampooButton"
             value={this.props.value}
@@ -129,7 +129,7 @@ class HygieneItems extends Component {
             Remove Shampoo
           </button>
           <h4>Floss</h4>
-          <h4>{this.props.flossTotal}</h4>
+          <h4 className="number">{this.props.flossTotal}</h4>
           <button
             id="flossButton"
             value={this.props.value}
@@ -146,7 +146,7 @@ class HygieneItems extends Component {
             Remove Floss
           </button>
           <h4>Deodorant</h4>
-          <h4>{this.props.deodorantTotal}</h4>
+          <h4 className="number">{this.props.deodorantTotal}</h4>
           <button
             id="deodorantButton"
             value={this.props.value}
@@ -163,7 +163,7 @@ class HygieneItems extends Component {
             Remove Deodorant
           </button>
           <h4>Lip Balm</h4>
-          <h4>{this.props.lipBalmTotal}</h4>
+          <h4 className="number">{this.props.lipBalmTotal}</h4>
           <button
             id="lipBalmButton"
             value={this.props.value}
@@ -180,7 +180,7 @@ class HygieneItems extends Component {
             Remove Lip Balm
           </button>
           <h4>Razor</h4>
-          <h4>{this.props.razorTotal}</h4>
+          <h4 className="number">{this.props.razorTotal}</h4>
           <button
             id="razorButton"
             value={this.props.value}
@@ -197,7 +197,7 @@ class HygieneItems extends Component {
             Remove Razor
           </button>
           <h4>Comb</h4>
-          <h4>{this.props.combTotal}</h4>
+          <h4 className="number">{this.props.combTotal}</h4>
           <button
             id="combButton"
             value={this.props.value}
@@ -214,7 +214,7 @@ class HygieneItems extends Component {
             Remove Comb
           </button>
           <h4>Mirror</h4>
-          <h4>{this.props.mirrorTotal}</h4>
+          <h4 className="number">{this.props.mirrorTotal}</h4>
           <button
             id="mirrorButton"
             value={this.props.value}

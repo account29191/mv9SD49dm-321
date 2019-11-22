@@ -11,7 +11,7 @@ class KitchenItems extends Component {
         </div>
         <div className="kitchenItemsDiv">
           <h4>Stove</h4>
-          <h4>{this.props.stoveTotal}</h4>
+          <h4 className="number">{this.props.stoveTotal}</h4>
           <button
             id="stoveButton"
             className="button"
@@ -28,7 +28,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Matches</h4>
-          <h4>{this.props.matchesTotal}</h4>
+          <h4 className="number">{this.props.matchesTotal}</h4>
           <button
             id="matchesButton"
             className="button"
@@ -44,7 +44,7 @@ class KitchenItems extends Component {
             Remove Matches
           </button>
           <h4>Lighter</h4>
-          <h4>{this.props.lighterTotal}</h4>
+          <h4 className="number">{this.props.lighterTotal}</h4>
           <button
             id="lighterButton"
             value={this.props.value}
@@ -61,7 +61,7 @@ class KitchenItems extends Component {
             Remove Lighter
           </button>
           <h4>Cooking Pot</h4>
-          <h4>{this.props.cookingPotTotal}</h4>
+          <h4 className="number">{this.props.cookingPotTotal}</h4>
           <button
             id="cookingPotButton"
             value={this.props.value}
@@ -78,7 +78,7 @@ class KitchenItems extends Component {
             Remove Cooking Pot
           </button>
           <h4>Frying Pan</h4>
-          <h4>{this.props.fryingPanTotal}</h4>
+          <h4 className="number">{this.props.fryingPanTotal}</h4>
           <button
             id="fryingPanButton"
             value={this.props.value}
@@ -95,7 +95,7 @@ class KitchenItems extends Component {
             Remove Frying Pan
           </button>
           <h4>Eating Utensils</h4>
-          <h4>{this.props.eatingUtensilsTotal}</h4>
+          <h4 className="number">{this.props.eatingUtensilsTotal}</h4>
           <button
             id="eatingUtensilsButton"
             value={this.props.value}
@@ -112,7 +112,7 @@ class KitchenItems extends Component {
             Remove Eating Utensils
           </button>
           <h4>Cooking Utensils</h4>
-          <h4>{this.props.cookingUtensilsTotal}</h4>
+          <h4 className="number">{this.props.cookingUtensilsTotal}</h4>
           <button
             id="cookingUtensilsButton"
             value={this.props.value}
@@ -130,7 +130,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Bottle Opener</h4>
-          <h4>{this.props.bottleOpenerTotal}</h4>
+          <h4 className="number">{this.props.bottleOpenerTotal}</h4>
           <button
             id="bottleOpenerButton"
             value={this.props.value}
@@ -148,7 +148,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Can Opener</h4>
-          <h4>{this.props.canOpenerTotal}</h4>
+          <h4 className="number">{this.props.canOpenerTotal}</h4>
           <button
             id="canOpenerButton"
             value={this.props.value}
@@ -166,7 +166,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Corkscrew</h4>
-          <h4>{this.props.corkscrewTotal}</h4>
+          <h4 className="number">{this.props.corkscrewTotal}</h4>
           <button
             id="corkscrewButton"
             value={this.props.value}
@@ -184,7 +184,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Sharp Knife</h4>
-          <h4>{this.props.sharpKnifeTotal}</h4>
+          <h4 className="number">{this.props.sharpKnifeTotal}</h4>
           <button
             id="sharpKnifeButton"
             value={this.props.value}
@@ -202,7 +202,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Plates</h4>
-          <h4>{this.props.platesTotal}</h4>
+          <h4 className="number">{this.props.platesTotal}</h4>
           <button
             id="platesButton"
             value={this.props.value}
@@ -220,7 +220,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Bowls</h4>
-          <h4>{this.props.bowlsTotal}</h4>
+          <h4 className="number">{this.props.bowlsTotal}</h4>
           <button
             id="bowlsButton"
             value={this.props.value}
@@ -238,7 +238,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Coffee Mugs</h4>
-          <h4>{this.props.coffeeMugsTotal}</h4>
+          <h4 className="number">{this.props.coffeeMugsTotal}</h4>
           <button
             id="coffeeMugsButton"
             value={this.props.value}
@@ -255,7 +255,7 @@ class KitchenItems extends Component {
             Remove Coffee Mug
           </button>
           <h4>Cups</h4>
-          <h4>{this.props.cupsTotal}</h4>
+          <h4 className="number">{this.props.cupsTotal}</h4>
           <button
             id="cupsButton"
             value={this.props.value}
@@ -273,7 +273,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Cutting Board</h4>
-          <h4>{this.props.cuttingBoardTotal}</h4>
+          <h4 className="number">{this.props.cuttingBoardTotal}</h4>
           <button
             id="cuttingBoardButton"
             value={this.props.value}
@@ -291,7 +291,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Cooler</h4>
-          <h4>{this.props.coolerTotal}</h4>
+          <h4 className="number">{this.props.coolerTotal}</h4>
           <button
             id="coolerButton"
             value={this.props.value}
@@ -309,7 +309,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Dishwash Bin</h4>
-          <h4>{this.props.dishwashBinTotal}</h4>
+          <h4 className="number">{this.props.dishwashBinTotal}</h4>
           <button
             id="dishwashBinButton"
             value={this.props.value}
@@ -327,7 +327,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Sponge</h4>
-          <h4>{this.props.spongeTotal}</h4>
+          <h4 className="number">{this.props.spongeTotal}</h4>
           <button
             id="spongeButton"
             value={this.props.value}
@@ -344,7 +344,7 @@ class KitchenItems extends Component {
             Remove Sponge
           </button>
           <h4>Trash Bags</h4>
-          <h4>{this.props.trashBagsTotal}</h4>
+          <h4 className="number">{this.props.trashBagsTotal}</h4>
           <button
             id="trashBagsButton"
             value={this.props.value}
@@ -362,7 +362,7 @@ class KitchenItems extends Component {
           </button>
 
           <h4>Dish Towel</h4>
-          <h4>{this.props.dishTowelTotal}</h4>
+          <h4 className="number">{this.props.dishTowelTotal}</h4>
           <button
             id="dishtowelButton"
             value={this.props.value}
